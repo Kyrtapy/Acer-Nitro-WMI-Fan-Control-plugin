@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <AssemblyName>FanControl.AcerNitroWmiPlugin</AssemblyName>
+    <RootNamespace>FanControl.AcerNitroWmiPlugin</RootNamespace>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <GenerateDocumentationFile>false</GenerateDocumentationFile>
+    <NoWarn>CA1416</NoWarn>
+    <Version>1.0.0</Version>
+    <Description>FanControl plugin for Acer Nitro laptops (tested design target: Nitro V 15) using the AcerGamingFunction WMI interface.</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Both ship with FanControl itself, so they are referenced but never copied. -->
+    <Reference Include="FanControl.Plugins">
+      <HintPath>lib\FanControl.Plugins.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="System.Management">
+      <HintPath>lib\System.Management.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+  </ItemGroup>
+
+</Project>
