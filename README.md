@@ -21,7 +21,7 @@ Plugin for [FanControl](https://github.com/Rem0o/FanControl.Releases) that allow
 
 - Do not adjust the fan speed using NitroSense or other fan tools at the same time; they will fight over the EC.
 - Acer background services may reset or fight fan behaviour; its better to disable them.
-- AI was used to help with making this plugin.
+- I used AI as an assisting tool during development, particularly for coding and debugging. The project was developed, tested and maintained by me.
 - Requires `.NET 10`.
 
 ---
