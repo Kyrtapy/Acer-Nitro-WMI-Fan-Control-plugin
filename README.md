@@ -1,4 +1,4 @@
-# # Acer Nitro WMI Fan Control plugin
+## Acer Nitro WMI Fan Control plugin
 
 ---
 
