@@ -1,4 +1,4 @@
-## Acer Nitro WMI Fan Control plugin
+ # Acer Nitro WMI Fan Control plugin
 
 
 Plugin for [FanControl](https://github.com/Rem0o/FanControl.Releases) that allows you to change fan speed on Acer Nitro laptops that use the `AcerGamingFunction` WMI class in `root\wmi`
